@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Concert+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+
+}
+body{
+    min-height: 100vh;
+    display:grid;
+    place-items: center;
+    background-image: url(indexback.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-size:cover;
+    margin: 0px; 
+}
+.socials-container{
+    display: flex;
+    gap: 20px;
+/* }
+.socials-container a{
+    background-color: white;
+    padding: 3.5%;1.5em
+    border-radius: 50%;
+    box-sizing:border-box;
+    place-items: center;
+    flex-shrink: 0;
+    height: 100px;
+    width: 100px;
+    
+
+
+
+
+}
+.socials-container a svg{
+    height: 50px;
+    
+ fill: rgb(214, 4, 4); 
+
+
+}*/
+
+}
+.socials-container a{
+    background-color: white;
+    padding: 1em;
+    border-radius: 50%;
+    box-sizing:border-box;
+    place-items: center;
+    flex-shrink: 0;
+    height:64px;
+    width: 64px;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.25) ;
+
+}
+.socials-container a svg{
+    height: 32px;
+    
+    /* fill: rgb(214, 4, 4); */
+}
+.socials-container :hover{
+    background-color:var(--accent-color); 
+    transition:0.3s;
+}
+.a1{
+    --accent-color: #72f838;
+}
+.a2{
+    --accent-color: #fc5c3a;
+    
+}
+.a3{
+    --accent-color: #C70039;
+    
+}
+.a4{
+    --accent-color:  #625ef7;
+    
+}
+.a5{
+
+    --accent-color: #124eec; 
+
+}
+.a6{
+    --accent-color: #f8d31b;
+
+}
