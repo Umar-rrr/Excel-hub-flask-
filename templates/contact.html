@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <h1 class="contus-head">CONTACT US</h1>
+      <div class="contcontainer">
+        <div class="cnctcard">
+          <h1 class="heading">LET'S CONNECT!</h1>
+          <p class="contpara">
+            Have questions or need assistance? <br />Feel free to reach out to
+            us anytime!<br />Contact us anytime!
+          </p>
+          <div class="linksparent">
+            <div class="contlinks">
+              <a href="#"
+                ><img
+                  src="{{ url_for('static', filename='instagram.png') }}"
+                  alt="insta"
+              /></a>
+              <a href="#"
+                ><img
+                  src="{{ url_for('static', filename='fb1.png') }}"
+                  alt="facebook"
+              /></a>
+              <a href="#"
+                ><img
+                  src="{{ url_for('static', filename='github.png') }}"
+                  alt="github"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
